@@ -1,0 +1,49 @@
+{
+  "name": "camera-spin",
+  "version": "1.0.0",
+  "description": "Mouse/touch-draggable first-person camera",
+  "main": "index.built.js",
+  "browser": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "https://github.com/hughsk"
+  },
+  "dependencies": {
+    "babelify": "^6.4.0",
+    "clamp": "^1.0.1",
+    "gl-mat4": "^1.1.4",
+    "mouse-pressed": "^1.0.0",
+    "touch-position": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18"
+  },
+  "scripts": {
+    "prepublish": "babel index.js -o index.built.js"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "keywords": [
+    "mouse",
+    "touch",
+    "drag",
+    "camera",
+    "fps",
+    "ecosystem:stackgl",
+    "matrix"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/camera-spin.git"
+  },
+  "homepage": "https://github.com/Jam3/camera-spin",
+  "bugs": {
+    "url": "https://github.com/Jam3/camera-spin/issues"
+  }
+}
