@@ -29,7 +29,7 @@ class Camera {
     this.dragRate = 0.2
 
     if (this.element) {
-      this.cursor = Cursor.emitter({ element })
+      this.cursor = Cursor.emitter({ element: window })
       this.cpos = this.cursor.position
       this.pressed = Pressed(element)
       this.element.style.cursor = '-webkit-grab'
