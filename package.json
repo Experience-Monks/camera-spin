@@ -1,6 +1,6 @@
 {
   "name": "camera-spin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mouse/touch-draggable first-person camera",
   "main": "index.built.js",
   "browser": "index.js",
