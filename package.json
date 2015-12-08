@@ -22,7 +22,7 @@
     "babel-preset-es2015": "^6.1.18"
   },
   "scripts": {
-    "release": "babel --presets es2015 index.js -o index.built.js"
+    "release": "babel index.js -o index.built.js"
   },
   "browserify": {
     "transform": [
@@ -45,5 +45,10 @@
   "homepage": "https://github.com/Jam3/camera-spin",
   "bugs": {
     "url": "https://github.com/Jam3/camera-spin/issues"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   }
 }
