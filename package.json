@@ -12,14 +12,14 @@
   },
   "dependencies": {
     "babelify": "^7.2.0",
+    "babel-preset-es2015": "^6.1.18",
     "clamp": "^1.0.1",
     "gl-mat4": "^1.1.4",
     "mouse-pressed": "^1.0.0",
     "touch-position": "^1.1.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.1.18",
-    "babel-preset-es2015": "^6.1.18"
+    "babel-cli": "^6.1.18"
   },
   "scripts": {
     "release": "babel index.js -o index.built.js"
