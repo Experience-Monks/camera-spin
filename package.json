@@ -11,11 +11,10 @@
     "url": "https://github.com/hughsk"
   },
   "dependencies": {
-    "babelify": "^7.2.0",
     "babel-preset-es2015": "^6.1.18",
+    "babelify": "^7.2.0",
     "clamp": "^1.0.1",
     "gl-mat4": "^1.1.4",
-    "mouse-pressed": "^1.0.0",
     "touch-position": "^1.1.0"
   },
   "devDependencies": {
