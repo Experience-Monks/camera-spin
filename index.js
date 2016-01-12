@@ -63,12 +63,18 @@ class Camera {
         this.element.style.cursor = '-webkit-grab'
         this.element.style.cursor = '-moz-grab'
         this.element.style.cursor = 'grab'
+        document.body.style.userSelect = null
+        document.body.style.mozUserSelect = null
+        document.body.style.webkitUserSelect = null
       } else
       if (this.pressed.left && !this.grabbing) {
         this.grabbing = true
         this.element.style.cursor = '-webkit-grabbing'
         this.element.style.cursor = '-moz-grabbing'
         this.element.style.cursor = 'grabbing'
+        document.body.style.userSelect = 'none'
+        document.body.style.mozUserSelect = 'none'
+        document.body.style.webkitUserSelect = 'none'
       }
     }
 
