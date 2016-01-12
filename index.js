@@ -5,7 +5,7 @@ import clamp from 'clamp'
 
 const target = new Float32Array(3)
 
-export default (element, origin, up) => new Camera(element, origin, up)
+module.exports = (element, origin, up) => new Camera(element, origin, up)
 
 class Camera {
   constructor (element, origin, up) {
